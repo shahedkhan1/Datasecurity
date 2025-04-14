@@ -32,6 +32,6 @@ def kasiski_analysis(repeats):
 repeats = find_repeats(ciphertext)
 factors = kasiski_analysis(repeats)
 
-print("🧮 Top key length candidates based on factor frequency:\n")
+print(" Top key length candidates based on factor frequency:\n")
 for f, count in factors[:10]:
     print(f"Length {f}: {count} times")
