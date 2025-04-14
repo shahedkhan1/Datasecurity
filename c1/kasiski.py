@@ -2,7 +2,7 @@ from collections import defaultdict
 from math import gcd
 from functools import reduce
 
-# === Paste cleaned ciphertext here ===
+# cleaned ciphertext here 
 ciphertext = "TBOQJOKAUJOCDUFQYVOTAQZMIVSAXDSIBIFNXUMPYDQFFFYAIRATGIEBTIFVYNKGGGSGQQBPXROBNHZPJAFBJROTKUGEXBOCUWOHDDUBEWDITTUTVRSGLMFNNEBFZUFQYVOBJHZFTBOEAGDPVQODXQFRIBEXNZOCLEQTXCOHYQZRDIDZTEBHNIECOGEGZMAAUUNGDBLL"
 # === Step 1: Find repeated sequences and their spacings ===
 def find_repeats(text, min_len=3, max_len=5):
