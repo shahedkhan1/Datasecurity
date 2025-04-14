@@ -57,5 +57,5 @@ def decrypt_vigenere(text, key):
     return ''.join(decrypted)
 
 plaintext = decrypt_vigenere(cipher, key)
-print("✅ Best key:", key)
-print("🔓 Preview:", plaintext)
+print("Best key:", key)
+print("Preview:", plaintext)
