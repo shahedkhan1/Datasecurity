@@ -2,7 +2,8 @@ import wordninja
 import textwrap
 import spacy
 
-# === Load spaCy English model (first time: run `python -m spacy download en_core_web_sm`)
+# === Load spaCy English model
+# to be able to import instrcutor needs to run `python -m spacy download en_core_web_sm`
 nlp = spacy.load("en_core_web_sm")
 
 decrypted_text = (
