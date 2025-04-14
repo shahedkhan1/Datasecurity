@@ -47,5 +47,5 @@ for _ in range(max_tries):
 
 # === Final Output ===
 plaintext = decrypt(cipher, best_key)
-print(f"✅ Best Key Mapping:\n{best_key}")
-print(f"\n🔓 Decryption Preview:\n{plaintext[:500]}")
+print(f" Best Key Mapping:\n{best_key}")
+print(f"\n Decryption Preview:\n{plaintext[:500]}")
